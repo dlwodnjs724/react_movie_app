@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
     "eslint-config-airbnb": "^18.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -24,7 +25,8 @@
     "rules": {
       "react/prefer-stateless-function": 0,
       "react/jsx-filename-extension": 0,
-      "react/jsx-one-expression-per-line": 0
+      "react/jsx-one-expression-per-line": 0,
+      "linebreak-style": 0
     },
     "env": {
       "browser": true
